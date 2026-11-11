@@ -24,7 +24,7 @@ python -m http.server 8000
 1. Create a repository named `B1a-z3.github.io` (or any repo name).
 2. Upload these four files to the repository root.
 3. In **Settings → Pages**, set the source to the `main` branch, root folder.
-4. The site goes live at `https://b1a-z3.github.io/` (or `https://b1a-z3.github.io/<repo>/`).
+4. The site goes live at `https://b1a-z3.github.io/` (or `https://b1a-z3.github.io/Portfolio/`).
 
 ## Customize
 

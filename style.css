@@ -1,0 +1,12 @@
+:root{--accent:#22C55E}
+body{margin:0;background:#0A0D10}
+a{color:#F4F4F0}a:hover{color:#C9CED4}
+html{scroll-behavior:smooth}
+.spot{position:relative}
+.spot::before{content:"";position:absolute;inset:0;border-radius:inherit;pointer-events:none;opacity:0;transition:opacity .35s ease;background:radial-gradient(280px circle at var(--mx,50%) var(--my,50%),color-mix(in srgb,var(--accent,#22C55E) 18%,transparent),transparent 70%)}
+.spot:hover::before{opacity:1}
+#hero-eyebrow::after{content:"_";margin-left:2px;animation:blink 1s steps(1) infinite}
+@keyframes blink{50%{opacity:0}}
+.glitch:hover{animation:glitch .4s steps(2,end) 2}
+@keyframes glitch{0%{text-shadow:2px 0 #22C55E,-2px 0 #38BDF8;transform:translateX(0)}25%{text-shadow:-2px 0 #22C55E,2px 0 #38BDF8;transform:translateX(-2px)}50%{text-shadow:2px 1px #22C55E,-1px -1px #38BDF8;transform:translateX(2px)}75%{text-shadow:-1px 0 #22C55E,1px 0 #38BDF8;transform:translateX(-1px)}100%{text-shadow:none;transform:none}}
+@media (prefers-reduced-motion: reduce){html{scroll-behavior:auto}#hero-eyebrow::after{animation:none}.glitch:hover{animation:none}}

@@ -1,0 +1,332 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Nihal Malavalli Lokesh – Data Scientist</title>
+<meta name="description" content="Portfolio of Nihal Malavalli Lokesh, a data scientist building models end to end: SQL, XGBoost, PyTorch, FastAPI and monitoring.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div style="position: relative; background: #0A0D10; color: #F4F4F0; font-family: 'Inter', system-ui, sans-serif; font-size: 16px; line-height: 1.6">
+<canvas id="rain" aria-hidden="true" style="position: fixed; top: 0; left: 0; width: 100%; height: 100%; z-index: 0; opacity: 0.4; pointer-events: none"></canvas>
+<div style="position: relative; z-index: 1">
+
+<header style="background: #0A0D10; border-bottom: 1px solid #2A3138">
+<div style="max-width: 1160px; margin: 0 auto; padding: 12px 24px; display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 8px 24px">
+<a href="#top" style="font-family: 'Space Grotesk', 'Inter', sans-serif; font-weight: 700; font-size: 18px; text-decoration: none; color: #F4F4F0; display: inline-flex; align-items: center; min-height: 44px">Nihal Malavalli Lokesh</a>
+<nav aria-label="Sections" style="display: flex; flex-wrap: wrap; align-items: center; gap: 4px 20px">
+<a href="#work" style="font-size: 15px; font-weight: 500; text-decoration: none; color: #C9CED4; display: inline-flex; align-items: center; min-height: 44px">Work</a>
+<a href="#more" style="font-size: 15px; font-weight: 500; text-decoration: none; color: #C9CED4; display: inline-flex; align-items: center; min-height: 44px">More projects</a>
+<a href="#experience" style="font-size: 15px; font-weight: 500; text-decoration: none; color: #C9CED4; display: inline-flex; align-items: center; min-height: 44px">Experience</a>
+<a href="#skills" style="font-size: 15px; font-weight: 500; text-decoration: none; color: #C9CED4; display: inline-flex; align-items: center; min-height: 44px">Skills</a>
+<a href="#contact" style="font-size: 15px; font-weight: 600; text-decoration: none; color: #0A0D10; background: var(--accent); padding: 0 18px; border-radius: 6px; display: inline-flex; align-items: center; min-height: 44px">Contact</a>
+</nav>
+</div>
+</header>
+
+<section id="top">
+<div style="max-width: 1160px; margin: 0 auto; padding: 88px 24px 96px; display: flex; flex-wrap: wrap; align-items: flex-start; gap: 56px">
+<div style="flex: 999 1 520px; min-width: 0; box-sizing: border-box; display: flex; flex-direction: column; gap: 28px; background: rgba(10, 13, 16, 0.8); border: 1px solid #2A3138; border-radius: 10px; padding: 36px">
+<div style="display: flex; flex-wrap: wrap; align-items: center; gap: 16px">
+<img src="profile.jpg" alt="Nihal Malavalli Lokesh" style="flex: 0 0 120px; width: 120px; height: 120px; box-sizing: border-box; border-radius: 50%; border: 2px solid var(--accent); background: #12181D; object-fit: cover">
+<div style="flex: 1 1 260px; min-width: 0; display: flex; flex-direction: column; gap: 4px">
+<div style="font-family: 'Space Grotesk', 'Inter', sans-serif; font-weight: 700; font-size: 18px; line-height: 1.3">Nihal Malavalli Lokesh</div>
+<p id="hero-eyebrow" style="margin: 0; font-family: 'JetBrains Mono', ui-monospace, monospace; font-size: 13px; letter-spacing: 0.06em; text-transform: uppercase; color: #9AA3AD">Data science · Machine learning · Analytics · Dallas, TX</p>
+</div>
+</div>
+<h1 id="hero-title" style="margin: 0; font-family: 'Space Grotesk', 'Inter', sans-serif; font-weight: 700; font-size: clamp(36px, 5vw, 62px); line-height: 1.06; letter-spacing: -0.02em">I build models end to end, from the first SQL query to the monitored endpoint.</h1>
+<p style="margin: 0; font-size: 18px; color: #D3D7DC; max-width: 600px">I’m Nihal, a data scientist with an M.S. in Data Science from the University of Texas at Arlington. I work across the whole pipeline: feature work in PostgreSQL, modeling in XGBoost and PyTorch, serving with FastAPI, and explaining the results to people who don’t read code.</p>
+<div style="display: flex; flex-wrap: wrap; gap: 12px">
+<a href="#work" style="font-size: 16px; font-weight: 600; text-decoration: none; color: #0A0D10; background: var(--accent); padding: 0 22px; border-radius: 6px; display: inline-flex; align-items: center; min-height: 48px">See the work</a>
+<a href="https://github.com/B1a-z3" style="font-size: 16px; font-weight: 600; text-decoration: none; color: #F4F4F0; background: #0A0D10; border: 1px solid #6B727B; padding: 0 22px; border-radius: 6px; display: inline-flex; align-items: center; min-height: 46px">GitHub</a>
+<a href="https://linkedin.com/in/nihal-m-l" style="font-size: 16px; font-weight: 600; text-decoration: none; color: #F4F4F0; background: #0A0D10; border: 1px solid #6B727B; padding: 0 22px; border-radius: 6px; display: inline-flex; align-items: center; min-height: 46px">LinkedIn</a>
+</div>
+</div>
+
+<div class="spot" style="flex: 1 1 340px; min-width: 0; background: #12181D; border: 1px solid #2A3138; border-radius: 10px; display: flex; flex-direction: column">
+<div style="padding: 14px 24px; border-bottom: 1px solid #2A3138; font-family: 'JetBrains Mono', ui-monospace, monospace; font-size: 12px; letter-spacing: 0.06em; text-transform: uppercase; color: #9AA3AD">Results at a glance</div>
+<div style="padding: 20px 24px; border-bottom: 1px solid #2A3138; display: flex; flex-direction: column; gap: 4px">
+<div id="count-profit" style="font-family: 'Space Grotesk', 'Inter', sans-serif; font-weight: 700; font-size: 34px; line-height: 1.1; color: var(--accent)">+$4.42M</div>
+<div style="font-size: 14px; color: #9AA3AD">Back-tested profit from an XGBoost bid policy (+27%)</div>
+</div>
+<div style="padding: 20px 24px; border-bottom: 1px solid #2A3138; display: flex; flex-direction: column; gap: 4px">
+<div style="font-family: 'Space Grotesk', 'Inter', sans-serif; font-weight: 700; font-size: 34px; line-height: 1.1">1.212 → 0.374</div>
+<div style="font-size: 14px; color: #9AA3AD">Log-scale RMSE on permeability after rock typing (best cluster)</div>
+</div>
+<div style="padding: 20px 24px; border-bottom: 1px solid #2A3138; display: flex; flex-direction: column; gap: 4px">
+<div id="count-entry" style="font-family: 'Space Grotesk', 'Inter', sans-serif; font-weight: 700; font-size: 34px; line-height: 1.1">95%</div>
+<div style="font-size: 14px; color: #9AA3AD">Manual data entry removed by automated reporting</div>
+</div>
+<div style="padding: 20px 24px; display: flex; flex-direction: column; gap: 4px">
+<div style="font-family: 'Space Grotesk', 'Inter', sans-serif; font-weight: 700; font-size: 34px; line-height: 1.1">3.8 / 4.0</div>
+<div style="font-size: 14px; color: #9AA3AD">GPA, M.S. Data Science, UT Arlington</div>
+</div>
+</div>
+</div>
+</section>
+
+<section id="work" style="background: rgba(18, 24, 29, 0.88); border-top: 1px solid #2A3138; border-bottom: 1px solid #2A3138">
+<div style="max-width: 1160px; margin: 0 auto; padding: 80px 24px; display: flex; flex-direction: column; gap: 32px">
+<div class="reveal" style="display: flex; flex-direction: column; gap: 8px">
+<p style="margin: 0; font-family: 'JetBrains Mono', ui-monospace, monospace; font-size: 13px; letter-spacing: 0.06em; text-transform: uppercase; color: #9AA3AD">Selected work</p>
+<h2 style="margin: 0; font-family: 'Space Grotesk', 'Inter', sans-serif; font-weight: 700; font-size: clamp(28px, 3.4vw, 40px); line-height: 1.15; letter-spacing: -0.01em">Three projects, each with a number to defend</h2>
+</div>
+
+<article class="reveal spot tilt" style="will-change: transform; background: #0A0D10; border: 1px solid #2A3138; border-radius: 10px; padding: 36px; display: flex; flex-wrap: wrap; gap: 40px">
+<div style="flex: 999 1 460px; min-width: 0; display: flex; flex-direction: column; gap: 16px">
+<p style="margin: 0; font-family: 'JetBrains Mono', ui-monospace, monospace; font-size: 12px; letter-spacing: 0.06em; text-transform: uppercase; color: #9AA3AD">Risk modeling · Decision policy · Experiment design</p>
+<h3 class="glitch" style="margin: 0; font-family: 'Space Grotesk', 'Inter', sans-serif; font-weight: 700; font-size: 28px; line-height: 1.2">Used-Car Auction Bid Strategy</h3>
+<p style="margin: 0; color: #C9CED4">Which used cars go bad, and what should we bid? I scored bad-buy risk on 72,983 auction purchases with XGBoost (AUC 0.767 against a 0.750 logistic baseline), leaving out price and post-purchase fields to prevent leakage. The risk became a maximum-bid rule, back-tested out of time on 14,470 cars.</p>
+<p style="margin: 0; color: #C9CED4">Along the way I caught a confounder (overpayment risk disappears once you control for vehicle age) and designed an A/B test with power analysis from 6,400 simulated regressions.</p>
+<div style="display: flex; flex-wrap: wrap; gap: 8px">
+<span style="font-family: 'JetBrains Mono', ui-monospace, monospace; font-size: 12px; color: #C9CED4; border: 1px solid #2A3138; border-radius: 4px; padding: 4px 10px">PostgreSQL</span>
+<span style="font-family: 'JetBrains Mono', ui-monospace, monospace; font-size: 12px; color: #C9CED4; border: 1px solid #2A3138; border-radius: 4px; padding: 4px 10px">XGBoost</span>
+<span style="font-family: 'JetBrains Mono', ui-monospace, monospace; font-size: 12px; color: #C9CED4; border: 1px solid #2A3138; border-radius: 4px; padding: 4px 10px">SHAP</span>
+<span style="font-family: 'JetBrains Mono', ui-monospace, monospace; font-size: 12px; color: #C9CED4; border: 1px solid #2A3138; border-radius: 4px; padding: 4px 10px">Statsmodels</span>
+<span style="font-family: 'JetBrains Mono', ui-monospace, monospace; font-size: 12px; color: #C9CED4; border: 1px solid #2A3138; border-radius: 4px; padding: 4px 10px">Tableau</span>
+<span style="font-family: 'JetBrains Mono', ui-monospace, monospace; font-size: 12px; color: #C9CED4; border: 1px solid #2A3138; border-radius: 4px; padding: 4px 10px">Streamlit</span>
+</div>
+<div style="display: flex; flex-wrap: wrap; gap: 4px 24px">
+<a href="https://carvana-bid-strategy-cp2bch6sjsclzdxmtt8fz8.streamlit.app/" style="font-weight: 600; color: var(--accent); display: inline-flex; align-items: center; min-height: 44px">Live app ↗</a>
+<a href="https://public.tableau.com/app/profile/nihal.lokesh/viz/Carvana-auction-bid-strategy/Whereistherisk" style="font-weight: 600; color: var(--accent); display: inline-flex; align-items: center; min-height: 44px">Tableau dashboard ↗</a>
+<a href="https://github.com/B1a-z3/carvana-bid-strategy" style="font-weight: 600; color: var(--accent); display: inline-flex; align-items: center; min-height: 44px">Code on GitHub ↗</a>
+</div>
+</div>
+<div style="flex: 1 1 280px; min-width: 0; display: flex; flex-direction: column; gap: 20px; border-top: 1px solid #2A3138; padding-top: 20px">
+<div style="display: flex; flex-direction: column; gap: 2px">
+<div style="font-family: 'Space Grotesk', 'Inter', sans-serif; font-weight: 700; font-size: 44px; line-height: 1.05; color: var(--accent)">+$4.42M</div>
+<div style="font-size: 14px; color: #9AA3AD">Back-tested profit, up 27% on historical buying</div>
+</div>
+<div style="display: flex; flex-direction: column; gap: 2px">
+<div style="font-family: 'Space Grotesk', 'Inter', sans-serif; font-weight: 700; font-size: 28px; line-height: 1.1">12.8% → 8.0%</div>
+<div style="font-size: 14px; color: #9AA3AD">Bad-buy rate</div>
+</div>
+<div style="display: flex; flex-direction: column; gap: 2px">
+<div style="font-family: 'Space Grotesk', 'Inter', sans-serif; font-weight: 700; font-size: 28px; line-height: 1.1">$2.6M–$6.6M</div>
+<div style="font-size: 14px; color: #9AA3AD">Saving across every cost scenario tested</div>
+</div>
+</div>
+</article>
+
+<article class="reveal spot tilt" style="will-change: transform; background: #0A0D10; border: 1px solid #2A3138; border-radius: 10px; padding: 36px; display: flex; flex-wrap: wrap; gap: 40px">
+<div style="flex: 999 1 460px; min-width: 0; display: flex; flex-direction: column; gap: 16px">
+<p style="margin: 0; font-family: 'JetBrains Mono', ui-monospace, monospace; font-size: 12px; letter-spacing: 0.06em; text-transform: uppercase; color: #9AA3AD">End-to-end ML system · Data engineering · Monitoring</p>
+<h3 class="glitch" style="margin: 0; font-family: 'Space Grotesk', 'Inter', sans-serif; font-weight: 700; font-size: 28px; line-height: 1.2">NBA Performance &amp; Game Outcome Prediction</h3>
+<p style="margin: 0; color: #C9CED4">One pipeline, two models: team-level game outcomes and player-level decline risk. A PostgreSQL warehouse is loaded by a Kaggle backfill plus incremental nba_api pulls, with a shared validation layer and pytest checks for look-ahead leakage.</p>
+<p style="margin: 0; color: #C9CED4">The first XGBoost pass barely beat logistic regression. A SQL finding that back-to-back teams shoot worse led to rest-day asymmetry features, which produced the real accuracy lift. Models are served through FastAPI and scored weekly on accuracy, log-loss and Brier score.</p>
+<div style="display: flex; flex-wrap: wrap; gap: 8px">
+<span style="font-family: 'JetBrains Mono', ui-monospace, monospace; font-size: 12px; color: #C9CED4; border: 1px solid #2A3138; border-radius: 4px; padding: 4px 10px">PostgreSQL</span>
+<span style="font-family: 'JetBrains Mono', ui-monospace, monospace; font-size: 12px; color: #C9CED4; border: 1px solid #2A3138; border-radius: 4px; padding: 4px 10px">XGBoost</span>
+<span style="font-family: 'JetBrains Mono', ui-monospace, monospace; font-size: 12px; color: #C9CED4; border: 1px solid #2A3138; border-radius: 4px; padding: 4px 10px">FastAPI</span>
+<span style="font-family: 'JetBrains Mono', ui-monospace, monospace; font-size: 12px; color: #C9CED4; border: 1px solid #2A3138; border-radius: 4px; padding: 4px 10px">Docker Compose</span>
+<span style="font-family: 'JetBrains Mono', ui-monospace, monospace; font-size: 12px; color: #C9CED4; border: 1px solid #2A3138; border-radius: 4px; padding: 4px 10px">pytest</span>
+<span style="font-family: 'JetBrains Mono', ui-monospace, monospace; font-size: 12px; color: #C9CED4; border: 1px solid #2A3138; border-radius: 4px; padding: 4px 10px">Streamlit</span>
+</div>
+<div style="display: flex; flex-wrap: wrap; gap: 4px 24px">
+<a href="https://github.com/B1a-z3" style="font-weight: 600; color: var(--accent); display: inline-flex; align-items: center; min-height: 44px">Code on GitHub ↗</a>
+</div>
+</div>
+<div style="flex: 1 1 280px; min-width: 0; display: flex; flex-direction: column; gap: 20px; border-top: 1px solid #2A3138; padding-top: 20px">
+<div style="display: flex; flex-direction: column; gap: 2px">
+<div style="font-family: 'Space Grotesk', 'Inter', sans-serif; font-weight: 700; font-size: 44px; line-height: 1.05; color: var(--accent)">5–10</div>
+<div style="font-size: 14px; color: #9AA3AD">Seasons of box scores in the warehouse</div>
+</div>
+<div style="display: flex; flex-direction: column; gap: 2px">
+<div style="font-family: 'Space Grotesk', 'Inter', sans-serif; font-weight: 700; font-size: 28px; line-height: 1.1">6 SQL analyses</div>
+<div style="font-size: 14px; color: #9AA3AD">Documented business questions behind the features</div>
+</div>
+<div style="display: flex; flex-direction: column; gap: 2px">
+<div style="font-family: 'Space Grotesk', 'Inter', sans-serif; font-weight: 700; font-size: 28px; line-height: 1.1">5-point alert</div>
+<div style="font-size: 14px; color: #9AA3AD">Drift flag when weekly accuracy falls below the trailing 4-week average</div>
+</div>
+</div>
+</article>
+
+<article class="reveal spot tilt" style="will-change: transform; background: #0A0D10; border: 1px solid #2A3138; border-radius: 10px; padding: 36px; display: flex; flex-wrap: wrap; gap: 40px">
+<div style="flex: 999 1 460px; min-width: 0; display: flex; flex-direction: column; gap: 16px">
+<p style="margin: 0; font-family: 'JetBrains Mono', ui-monospace, monospace; font-size: 12px; letter-spacing: 0.06em; text-transform: uppercase; color: #9AA3AD">Research · Clustering · Uncertainty quantification</p>
+<h3 class="glitch" style="margin: 0; font-family: 'Space Grotesk', 'Inter', sans-serif; font-weight: 700; font-size: 28px; line-height: 1.2">Rock Typing + NMR Logging for Permeability</h3>
+<p style="margin: 0; color: #C9CED4">Research at UT Arlington on the Arbuckle carbonate aquifer in Kansas. A single global model predicted permeability worse than the mean, so I first grouped rock into eight hydraulic flow units with K-means on the Flow Zone Indicator, then calibrated a separate model for each.</p>
+<p style="margin: 0; color: #C9CED4">The training set came from depth-matching 7,000+ NMR well-log rows to 694 lab core plugs across two wells, giving 472 one-to-one matched samples. Coefficient uncertainty is quantified with OLS and 10,000-sample bootstrapping.</p>
+<div style="display: flex; flex-wrap: wrap; gap: 8px">
+<span style="font-family: 'JetBrains Mono', ui-monospace, monospace; font-size: 12px; color: #C9CED4; border: 1px solid #2A3138; border-radius: 4px; padding: 4px 10px">Python</span>
+<span style="font-family: 'JetBrains Mono', ui-monospace, monospace; font-size: 12px; color: #C9CED4; border: 1px solid #2A3138; border-radius: 4px; padding: 4px 10px">Scikit-learn</span>
+<span style="font-family: 'JetBrains Mono', ui-monospace, monospace; font-size: 12px; color: #C9CED4; border: 1px solid #2A3138; border-radius: 4px; padding: 4px 10px">Statsmodels</span>
+<span style="font-family: 'JetBrains Mono', ui-monospace, monospace; font-size: 12px; color: #C9CED4; border: 1px solid #2A3138; border-radius: 4px; padding: 4px 10px">K-means</span>
+<span style="font-family: 'JetBrains Mono', ui-monospace, monospace; font-size: 12px; color: #C9CED4; border: 1px solid #2A3138; border-radius: 4px; padding: 4px 10px">Bootstrapping</span>
+</div>
+<div style="display: flex; flex-wrap: wrap; gap: 4px 24px">
+<a href="https://github.com/B1a-z3" style="font-weight: 600; color: var(--accent); display: inline-flex; align-items: center; min-height: 44px">Code on GitHub ↗</a>
+</div>
+</div>
+<div style="flex: 1 1 280px; min-width: 0; display: flex; flex-direction: column; gap: 20px; border-top: 1px solid #2A3138; padding-top: 20px">
+<div style="display: flex; flex-direction: column; gap: 2px">
+<div style="font-family: 'Space Grotesk', 'Inter', sans-serif; font-weight: 700; font-size: 44px; line-height: 1.05; color: var(--accent)">1.212 → 0.374</div>
+<div style="font-size: 14px; color: #9AA3AD">Test RMSE (log₁₀), global model vs. best cluster</div>
+</div>
+<div style="display: flex; flex-direction: column; gap: 2px">
+<div style="font-family: 'Space Grotesk', 'Inter', sans-serif; font-weight: 700; font-size: 28px; line-height: 1.1">1.212 → [POOLED RMSE]</div>
+<div style="font-size: 14px; color: #9AA3AD">Overall test RMSE across all 8 clusters, weighted by sample count</div>
+</div>
+<div style="display: flex; flex-direction: column; gap: 2px">
+<div style="font-family: 'Space Grotesk', 'Inter', sans-serif; font-weight: 700; font-size: 28px; line-height: 1.1">8 flow units</div>
+<div style="font-size: 14px; color: #9AA3AD">Chosen with the elbow method</div>
+</div>
+</div>
+</article>
+</div>
+</section>
+
+<section id="more">
+<div style="max-width: 1160px; margin: 0 auto; padding: 80px 24px; display: flex; flex-direction: column; gap: 32px">
+<div class="reveal" style="display: flex; flex-direction: column; gap: 8px">
+<p style="margin: 0; font-family: 'JetBrains Mono', ui-monospace, monospace; font-size: 13px; letter-spacing: 0.06em; text-transform: uppercase; color: #9AA3AD">More projects</p>
+<h2 style="margin: 0; font-family: 'Space Grotesk', 'Inter', sans-serif; font-weight: 700; font-size: clamp(28px, 3.4vw, 40px); line-height: 1.15; letter-spacing: -0.01em">GenAI, deep learning and forecasting</h2>
+</div>
+<div style="display: flex; flex-wrap: wrap; gap: 20px">
+
+<article class="reveal spot" style="flex: 1 1 320px; min-width: 0; background: #12181D; border: 1px solid #2A3138; border-radius: 10px; padding: 28px; display: flex; flex-direction: column; gap: 12px">
+<p style="margin: 0; font-family: 'JetBrains Mono', ui-monospace, monospace; font-size: 12px; letter-spacing: 0.06em; text-transform: uppercase; color: #9AA3AD">GenAI · RAG</p>
+<h3 class="glitch" style="margin: 0; font-family: 'Space Grotesk', 'Inter', sans-serif; font-weight: 700; font-size: 21px; line-height: 1.25">RAG Product Docs Assistant</h3>
+<p style="margin: 0; font-size: 15px; color: #C9CED4">A local RAG app over PDF and Markdown docs using SentenceTransformers, ChromaDB and Llama 3.1 via Ollama. Tested 200, 500 and 1,000-token chunks, added an “I don’t know” guardrail, and evaluates retrieval precision, recall and answer faithfulness on a hand-labeled Q&amp;A set.</p>
+<a href="https://github.com/B1a-z3" style="margin-top: auto; font-size: 15px; font-weight: 600; color: var(--accent); display: inline-flex; align-items: center; min-height: 44px">Code on GitHub ↗</a>
+</article>
+
+<article class="reveal spot" style="flex: 1 1 320px; min-width: 0; background: #12181D; border: 1px solid #2A3138; border-radius: 10px; padding: 28px; display: flex; flex-direction: column; gap: 12px">
+<p style="margin: 0; font-family: 'JetBrains Mono', ui-monospace, monospace; font-size: 12px; letter-spacing: 0.06em; text-transform: uppercase; color: #9AA3AD">Computer vision · Edge ML</p>
+<h3 class="glitch" style="margin: 0; font-family: 'Space Grotesk', 'Inter', sans-serif; font-weight: 700; font-size: 21px; line-height: 1.25">Real-Time Sign Language Translator</h3>
+<p style="margin: 0; font-size: 15px; color: #C9CED4">ASL alphabet recognition from a live camera feed. MediaPipe hand landmarks with a CNN reach 93.10% accuracy, and quantization-aware training shrinks the image CNN from 118 MB to 9.86 MB while holding 78.20% accuracy for edge devices.</p>
+<a href="https://github.com/B1a-z3" style="margin-top: auto; font-size: 15px; font-weight: 600; color: var(--accent); display: inline-flex; align-items: center; min-height: 44px">Code on GitHub ↗</a>
+</article>
+
+<article class="reveal spot" style="flex: 1 1 320px; min-width: 0; background: #12181D; border: 1px solid #2A3138; border-radius: 10px; padding: 28px; display: flex; flex-direction: column; gap: 12px">
+<p style="margin: 0; font-family: 'JetBrains Mono', ui-monospace, monospace; font-size: 12px; letter-spacing: 0.06em; text-transform: uppercase; color: #9AA3AD">Time series · Deep learning</p>
+<h3 class="glitch" style="margin: 0; font-family: 'Space Grotesk', 'Inter', sans-serif; font-weight: 700; font-size: 21px; line-height: 1.25">INFORMS Data Challenge 2025: Outage Forecasting</h3>
+<p style="margin: 0; font-size: 15px; color: #C9CED4">County-level power outage forecasts 24 and 48 hours ahead from hourly weather data. NetCDF inputs are shaped with xarray into windowed per-county datasets, and a PyTorch LSTM is benchmarked against per-county SARIMAX baselines.</p>
+<a href="https://github.com/B1a-z3" style="margin-top: auto; font-size: 15px; font-weight: 600; color: var(--accent); display: inline-flex; align-items: center; min-height: 44px">Code on GitHub ↗</a>
+</article>
+
+<article class="reveal spot" style="flex: 1 1 320px; min-width: 0; background: #12181D; border: 1px solid #2A3138; border-radius: 10px; padding: 28px; display: flex; flex-direction: column; gap: 12px">
+<p style="margin: 0; font-family: 'JetBrains Mono', ui-monospace, monospace; font-size: 12px; letter-spacing: 0.06em; text-transform: uppercase; color: #9AA3AD">Visualization · Deep learning</p>
+<h3 class="glitch" style="margin: 0; font-family: 'Space Grotesk', 'Inter', sans-serif; font-weight: 700; font-size: 21px; line-height: 1.25">EEG Psychiatric Disorders Dashboard</h3>
+<p style="margin: 0; font-size: 15px; color: #C9CED4">A live Streamlit dashboard over resting-state EEG data: band-power histograms, coherence and topographic maps, and t-SNE embeddings, with a PyTorch prediction tab that classifies disorders from 226 EEG features. Built as a group project.</p>
+<a href="https://data-vizproject-kt3my8elxg9wb4mtorsdlk.streamlit.app/" style="margin-top: auto; font-size: 15px; font-weight: 600; color: var(--accent); display: inline-flex; align-items: center; min-height: 44px">Live app ↗</a>
+</article>
+
+<article class="reveal spot" style="flex: 1 1 320px; min-width: 0; background: #12181D; border: 1px solid #2A3138; border-radius: 10px; padding: 28px; display: flex; flex-direction: column; gap: 12px">
+<p style="margin: 0; font-family: 'JetBrains Mono', ui-monospace, monospace; font-size: 12px; letter-spacing: 0.06em; text-transform: uppercase; color: #9AA3AD">LLM search · APIs</p>
+<h3 class="glitch" style="margin: 0; font-family: 'Space Grotesk', 'Inter', sans-serif; font-weight: 700; font-size: 21px; line-height: 1.25">Intelligent Parts Search Engine</h3>
+<p style="margin: 0; font-size: 15px; color: #C9CED4">An LLM-enhanced search for electronic parts. Gemini rewrites engineers’ queries, fuzzy matching handles typos and partial part numbers, and live data comes from the Mouser API. Flask endpoints cover search, part detail, similar parts and recommendations.</p>
+<a href="https://github.com/B1a-z3" style="margin-top: auto; font-size: 15px; font-weight: 600; color: var(--accent); display: inline-flex; align-items: center; min-height: 44px">Code on GitHub ↗</a>
+</article>
+
+<article class="reveal spot" style="flex: 1 1 320px; min-width: 0; background: #12181D; border: 1px solid #2A3138; border-radius: 10px; padding: 28px; display: flex; flex-direction: column; gap: 12px">
+<p style="margin: 0; font-family: 'JetBrains Mono', ui-monospace, monospace; font-size: 12px; letter-spacing: 0.06em; text-transform: uppercase; color: #9AA3AD">Regression · Model tuning</p>
+<h3 class="glitch" style="margin: 0; font-family: 'Space Grotesk', 'Inter', sans-serif; font-weight: 700; font-size: 21px; line-height: 1.25">Soil Ksat Prediction</h3>
+<p style="margin: 0; font-size: 15px; color: #C9CED4">Predicts saturated hydraulic conductivity at R² = 0.88. LightGBM is tuned with RandomizedSearchCV and 5-fold cross-validation, and RMSLE and R² are measured over 50 trials per training-set size against XGBoost and Random Forest.</p>
+<a href="https://github.com/B1a-z3" style="margin-top: auto; font-size: 15px; font-weight: 600; color: var(--accent); display: inline-flex; align-items: center; min-height: 44px">Code on GitHub ↗</a>
+</article>
+
+</div>
+</div>
+</section>
+
+<section id="experience" style="background: rgba(18, 24, 29, 0.88); border-top: 1px solid #2A3138; border-bottom: 1px solid #2A3138">
+<div style="max-width: 1160px; margin: 0 auto; padding: 80px 24px; display: flex; flex-direction: column; gap: 32px">
+<div class="reveal" style="display: flex; flex-direction: column; gap: 8px">
+<p style="margin: 0; font-family: 'JetBrains Mono', ui-monospace, monospace; font-size: 13px; letter-spacing: 0.06em; text-transform: uppercase; color: #9AA3AD">Experience &amp; education</p>
+<h2 style="margin: 0; font-family: 'Space Grotesk', 'Inter', sans-serif; font-weight: 700; font-size: clamp(28px, 3.4vw, 40px); line-height: 1.15; letter-spacing: -0.01em">Where I’ve worked and studied</h2>
+</div>
+<div style="display: flex; flex-direction: column">
+<div class="reveal" style="display: flex; flex-wrap: wrap; gap: 8px 40px; padding: 28px 0; border-top: 1px solid #2A3138">
+<div style="flex: 0 0 220px; font-family: 'JetBrains Mono', ui-monospace, monospace; font-size: 13px; color: #9AA3AD; padding-top: 4px">Aug 2025 – May 2026</div>
+<div style="flex: 999 1 420px; min-width: 0; display: flex; flex-direction: column; gap: 6px">
+<h3 style="margin: 0; font-family: 'Space Grotesk', 'Inter', sans-serif; font-weight: 700; font-size: 21px; line-height: 1.25">Research Assistant</h3>
+<div style="font-size: 15px; color: #9AA3AD">University of Texas at Arlington · Arlington, TX</div>
+<p style="margin: 6px 0 0; color: #C9CED4">Cut permeability prediction error (log-scale RMSE) from 1.212 to as low as 0.374 by clustering samples into hydraulic flow units and calibrating a model per cluster. Built the 472-sample training set from NMR well logs and lab core data, and quantified uncertainty with 10,000-sample bootstrapping.</p>
+</div>
+</div>
+<div class="reveal" style="display: flex; flex-wrap: wrap; gap: 8px 40px; padding: 28px 0; border-top: 1px solid #2A3138">
+<div style="flex: 0 0 220px; font-family: 'JetBrains Mono', ui-monospace, monospace; font-size: 13px; color: #9AA3AD; padding-top: 4px">Aug 2025 – May 2026</div>
+<div style="flex: 999 1 420px; min-width: 0; display: flex; flex-direction: column; gap: 6px">
+<h3 style="margin: 0; font-family: 'Space Grotesk', 'Inter', sans-serif; font-weight: 700; font-size: 21px; line-height: 1.25">Student Administrative Assistant</h3>
+<div style="font-size: 15px; color: #9AA3AD">University of Texas at Arlington · Arlington, TX</div>
+<p style="margin: 6px 0 0; color: #C9CED4">Cut manual data entry time by 95% by automating Mazevo-to-Excel reporting with Power Automate and Office Scripts across 90+ weekly bookings. Built a Python desktop tool on the Office 365 REST API to update the University Center’s shared operations sheet.</p>
+</div>
+</div>
+<div class="reveal" style="display: flex; flex-wrap: wrap; gap: 8px 40px; padding: 28px 0; border-top: 1px solid #2A3138">
+<div style="flex: 0 0 220px; font-family: 'JetBrains Mono', ui-monospace, monospace; font-size: 13px; color: #9AA3AD; padding-top: 4px">Aug 2022 – Nov 2022</div>
+<div style="flex: 999 1 420px; min-width: 0; display: flex; flex-direction: column; gap: 6px">
+<h3 style="margin: 0; font-family: 'Space Grotesk', 'Inter', sans-serif; font-weight: 700; font-size: 21px; line-height: 1.25">Design Engineering Intern</h3>
+<div style="font-size: 15px; color: #9AA3AD">VMX HI Connectors · India</div>
+<p style="margin: 6px 0 0; color: #C9CED4">Increased production efficiency by 10% by analyzing production data and documenting tested connector-design improvements.</p>
+</div>
+</div>
+<div class="reveal" style="display: flex; flex-wrap: wrap; gap: 8px 40px; padding: 28px 0; border-top: 1px solid #2A3138">
+<div style="flex: 0 0 220px; font-family: 'JetBrains Mono', ui-monospace, monospace; font-size: 13px; color: #9AA3AD; padding-top: 4px">Aug 2024 – May 2026</div>
+<div style="flex: 999 1 420px; min-width: 0; display: flex; flex-direction: column; gap: 6px">
+<h3 style="margin: 0; font-family: 'Space Grotesk', 'Inter', sans-serif; font-weight: 700; font-size: 21px; line-height: 1.25">M.S. Data Science</h3>
+<div style="font-size: 15px; color: #9AA3AD">University of Texas at Arlington · GPA 3.8 / 4.0</div>
+</div>
+</div>
+<div class="reveal" style="display: flex; flex-wrap: wrap; gap: 8px 40px; padding: 28px 0; border-top: 1px solid #2A3138; border-bottom: 1px solid #2A3138">
+<div style="flex: 0 0 220px; font-family: 'JetBrains Mono', ui-monospace, monospace; font-size: 13px; color: #9AA3AD; padding-top: 4px">Sep 2019 – May 2023</div>
+<div style="flex: 999 1 420px; min-width: 0; display: flex; flex-direction: column; gap: 6px">
+<h3 style="margin: 0; font-family: 'Space Grotesk', 'Inter', sans-serif; font-weight: 700; font-size: 21px; line-height: 1.25">B.E. Mechanical Engineering</h3>
+<div style="font-size: 15px; color: #9AA3AD">Visvesvaraya Technological University · GPA 3.5 / 4.0</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+<section id="skills">
+<div style="max-width: 1160px; margin: 0 auto; padding: 80px 24px; display: flex; flex-direction: column; gap: 32px">
+<div class="reveal" style="display: flex; flex-direction: column; gap: 8px">
+<p style="margin: 0; font-family: 'JetBrains Mono', ui-monospace, monospace; font-size: 13px; letter-spacing: 0.06em; text-transform: uppercase; color: #9AA3AD">Skills</p>
+<h2 style="margin: 0; font-family: 'Space Grotesk', 'Inter', sans-serif; font-weight: 700; font-size: clamp(28px, 3.4vw, 40px); line-height: 1.15; letter-spacing: -0.01em">The toolkit</h2>
+</div>
+<div style="display: flex; flex-wrap: wrap; gap: 20px">
+<div class="reveal spot" style="flex: 1 1 240px; min-width: 0; background: #12181D; border: 1px solid #2A3138; border-radius: 10px; padding: 24px; display: flex; flex-direction: column; gap: 8px">
+<h3 style="margin: 0; font-family: 'Space Grotesk', 'Inter', sans-serif; font-weight: 700; font-size: 18px">Languages</h3>
+<p style="margin: 0; font-size: 15px; color: #C9CED4">Python (Pandas, NumPy, Scikit-learn, Statsmodels, PyTorch), SQL (PostgreSQL: CTEs, window functions)</p>
+</div>
+<div class="reveal spot" style="flex: 1 1 240px; min-width: 0; background: #12181D; border: 1px solid #2A3138; border-radius: 10px; padding: 24px; display: flex; flex-direction: column; gap: 8px">
+<h3 style="margin: 0; font-family: 'Space Grotesk', 'Inter', sans-serif; font-weight: 700; font-size: 18px">ML &amp; statistics</h3>
+<p style="margin: 0; font-size: 15px; color: #C9CED4">XGBoost, LightGBM, Random Forest, logistic and OLS regression, K-means, SHAP, LSTM, SARIMAX, bootstrapping, A/B testing and power analysis</p>
+</div>
+<div class="reveal spot" style="flex: 1 1 240px; min-width: 0; background: #12181D; border: 1px solid #2A3138; border-radius: 10px; padding: 24px; display: flex; flex-direction: column; gap: 8px">
+<h3 style="margin: 0; font-family: 'Space Grotesk', 'Inter', sans-serif; font-weight: 700; font-size: 18px">GenAI</h3>
+<p style="margin: 0; font-size: 15px; color: #C9CED4">RAG, embeddings (SentenceTransformers), ChromaDB, Ollama (Llama 3.1), Gemini API, prompt engineering, retrieval evaluation</p>
+</div>
+<div class="reveal spot" style="flex: 1 1 240px; min-width: 0; background: #12181D; border: 1px solid #2A3138; border-radius: 10px; padding: 24px; display: flex; flex-direction: column; gap: 8px">
+<h3 style="margin: 0; font-family: 'Space Grotesk', 'Inter', sans-serif; font-weight: 700; font-size: 18px">Serving &amp; tools</h3>
+<p style="margin: 0; font-size: 15px; color: #C9CED4">FastAPI, Streamlit, Docker, Git/GitHub, pytest, Tableau, Power BI, Power Automate, Jupyter</p>
+</div>
+</div>
+<p style="margin: 0; font-size: 15px; color: #C9CED4; background: #12181D; border: 1px solid #2A3138; border-radius: 10px; padding: 16px 24px">Certifications: Google Data Analytics Professional Certificate · SolidWorks Certified Professional · Cybersecurity Fundamentals</p>
+</div>
+</section>
+
+<section id="contact" style="border-top: 1px solid #2A3138">
+<div style="max-width: 1160px; margin: 0 auto; padding: 88px 24px 40px; display: flex; flex-direction: column; gap: 28px">
+<p style="margin: 0; font-family: 'JetBrains Mono', ui-monospace, monospace; font-size: 13px; letter-spacing: 0.06em; text-transform: uppercase; color: #9AA3AD">Contact</p>
+<h2 class="reveal" style="margin: 0; font-family: 'Space Grotesk', 'Inter', sans-serif; font-weight: 700; font-size: clamp(32px, 4.4vw, 54px); line-height: 1.08; letter-spacing: -0.02em; max-width: 820px">Looking for someone to take a model from question to production? Let’s talk.</h2>
+<div style="display: flex; flex-wrap: wrap; gap: 12px">
+<a href="mailto:nihal16122000@gmail.com" style="font-size: 16px; font-weight: 600; text-decoration: none; color: #0A0D10; background: var(--accent); padding: 0 22px; border-radius: 6px; display: inline-flex; align-items: center; min-height: 48px">nihal16122000@gmail.com</a>
+<a href="https://linkedin.com/in/nihal-m-l" style="font-size: 16px; font-weight: 600; text-decoration: none; color: #F4F4F0; background: #0A0D10; border: 1px solid #6B727B; padding: 0 22px; border-radius: 6px; display: inline-flex; align-items: center; min-height: 46px">LinkedIn</a>
+<a href="https://github.com/B1a-z3" style="font-size: 16px; font-weight: 600; text-decoration: none; color: #F4F4F0; background: #0A0D10; border: 1px solid #6B727B; padding: 0 22px; border-radius: 6px; display: inline-flex; align-items: center; min-height: 46px">GitHub</a>
+</div>
+<div style="margin-top: 40px; padding-top: 24px; border-top: 1px solid #2A3138; font-size: 14px; color: #9AA3AD">Nihal Malavalli Lokesh · Dallas, TX</div>
+</div>
+</section>
+
+</div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
